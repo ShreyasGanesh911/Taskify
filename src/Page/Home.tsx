@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Card from '../Components/Card'
 import TaskModal from '../Components/TaskModal'
 import { ToastContainer} from 'react-toastify';
-import { toastSuccess } from '../Toast/Toast';
 
 export default function Home() {
     const [task,setTask] = useState([{title:"",date:'',description:'',taskKey:0,isComplete:false}])
